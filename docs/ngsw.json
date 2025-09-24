@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1758755807487,
+  "index": "/pr_p/index.csr.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pr_p/favicon.ico",
+        "/pr_p/index.csr.html",
+        "/pr_p/index.html",
+        "/pr_p/main-43XHWWPP.js",
+        "/pr_p/manifest.webmanifest",
+        "/pr_p/styles-5INURTSO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pr_p/assets/profile.png",
+        "/pr_p/icons/icon-128x128.png",
+        "/pr_p/icons/icon-144x144.png",
+        "/pr_p/icons/icon-152x152.png",
+        "/pr_p/icons/icon-192x192.png",
+        "/pr_p/icons/icon-384x384.png",
+        "/pr_p/icons/icon-512x512.png",
+        "/pr_p/icons/icon-72x72.png",
+        "/pr_p/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/pr_p/assets/profile.png": "099710d6fa467f72f202fc93f1f100ed8d9a0bf3",
+    "/pr_p/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/pr_p/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/pr_p/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/pr_p/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/pr_p/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/pr_p/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/pr_p/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/pr_p/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/pr_p/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/pr_p/index.csr.html": "5e0810ccf93d4d01f0587402b0699324f9068ed1",
+    "/pr_p/index.html": "8abcbe0d403e1d5fe0997cb8a0dd63e92ea8d308",
+    "/pr_p/main-43XHWWPP.js": "967508109e004dcb3caa868bdb98a8e70e647067",
+    "/pr_p/manifest.webmanifest": "087905aab3862fb3e78515ff2cb7c586c119d81a",
+    "/pr_p/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
